@@ -1,0 +1,108 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# --- MERN Stack (Node/React) .gitignore ---
+
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Production Build
+dist/
+build/
+out/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Editor/OS Specific
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+
+# Misc
+.cache/
+.eslintcache
+# --- Django .gitignore ---
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development
+db.sqlite3
+db.sqlite3-journal
+
+# Environment Variables & Secrets
+.env
+local_settings.py
+secrets.json
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+include/
+
+# Media and Static
+/media/
+/static/
+# Note: Usually you want to keep 'static/' in git if it contains your 
+# source assets, but ignore gathered 'staticfiles/'
+
+# Django-specific logs
+*.log
+celerybeat-schedule
+
+# Testing
+htmlcov/
+.tox/
+.coverage
+.cache/
+nosetests.xml
+coverage.xml
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
